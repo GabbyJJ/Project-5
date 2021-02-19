@@ -10,6 +10,7 @@ $.ajax({
     getCards();
   },
 });
+//This function runs through the list of the cards.
 function showPage() {
   let gallery = document.querySelector(".gallery");
   gallery.innerHTML = "";
